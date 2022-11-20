@@ -1,104 +1,12 @@
 body{
     background-color: white;
 }
-@import url('https://fonts.googleapis.com/css2? family= Oswald:wght@500 & display=swap');
-@import url('https://fonts.googleapis.com/css2? family= Shalimar & display=swap');
-@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & display=swap');
 
-:root{
-    --fonte-titulo:'Shalimar', robô;
-    --fonte-destaque:'Bebas Neue', cursive;
-}
-
-*{ 
+*{
     margin:0px;
-    padding: 0px;
-}
-
-header{
-    background-image: linear-gradient(to bottom, rgb(31, 69, 117), rgb(109, 235, 27));
-    color:white;
-    padding:35px;
-}
-    
-main {
-    min-width: 300px;
-    max-width: 1000px;
-    margin: auto;
-    margin-bottom: 30px;
-    padding: 20px;
-    background-color: white;
-    
+    padding:0px;
 }
 
 .cabeça_h{
-   text-align: center;
-   font-family: fantasy;
-   font-weight: normal;
-   margin-bottom: 20px;
+    background-color: red;
 }
-
-.cabeça_p{
-    text-align: center;
-    font-size: 1.4em;
-}
-
-nav{
-    background-color: rgb(109, 235, 27);
-    color: white;
-    padding: 15px;
-    margin-bottom: 12px;
-}
-
-nav > a{
-    transition-duration: .5s;
-    color:blue;
-    padding: 15px;
-    font-weight: bolder;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 1em;
-}
-
-nav > a:hover{
-
-    background-color: blue;
-    color:black;
-}
-
-main h1{
-
-    font-size: 1.4em;
-    background-image: linear-gradient(to right, rgb(0, 255, 21), transparent);
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 20px;
-
-}
-
-main p{
-
-    line-height: 2em;
-    margin-bottom: 15px;
-    margin: 15px 0px;
-    font-size: 1.1em;
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
-
-main h4{
-
-    font-size: 1.3em;
-
-}
-
-main h6{
-
-    font-size: 1.2em;
-}
-
-main a{
-
-    text-decoration: none;
-    color: blue;
-}
-
